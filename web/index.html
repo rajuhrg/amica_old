@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--
+  <head>
+    <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -14,33 +14,63 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+    <base href="$FLUTTER_BASE_HREF">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="amica">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="amica">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>amica</title>
-  <link rel="manifest" href="manifest.json">
+    <title>amica</title>
+    <link rel="manifest" href="manifest.json">
 
-  <script>
+    <script>
     // The value below is injected by flutter build, do not touch.
     var serviceWorkerVersion = null;
   </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-</head>
-<body>
-  <script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+  </head>
+  <body>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> -->
+     <!-- <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-firestore.js"></script> -->
+ 
+    <script >
+//         import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-analytics.js";
+//         const analytics = getAnalytics();
+// logEvent(analytics, 'notification_received');
+    var firebaseConfig = {
+      // apiKey: "...",
+      // authDomain: "[YOUR_PROJECT].firebaseapp.com",
+      // databaseURL: "https://[YOUR_PROJECT].firebaseio.com",
+      // projectId: "[YOUR_PROJECT]",
+      // storageBucket: "[YOUR_PROJECT].appspot.com",
+      // messagingSenderId: "...",
+      // appId: "1:...:web:...",
+      // measurementId: "G-...",
+
+      apiKey: "AIzaSyDBFu7D6tjV_8l09U00gXlo0Y1jLSFodH4",
+  authDomain: "amica-ee087.firebaseapp.com",
+  projectId: "amica-ee087",
+  storageBucket: "amica-ee087.appspot.com",
+  messagingSenderId: "323849334771",
+  appId: "1:323849334771:web:dd02b6cd8471a809356c86",
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+    <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
@@ -54,5 +84,5 @@
       });
     });
   </script>
-</body>
+  </body>
 </html>

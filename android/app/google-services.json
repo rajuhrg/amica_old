@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "947785867684",
+    "project_id": "amica-d6173",
+    "storage_bucket": "amica-d6173.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947785867684:android:19e773ad9739b362e66131",
+        "android_client_info": {
+          "package_name": "com.jaspertech.amica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947785867684-7b37smhcdgttl98eikq0g7rimd3lmivd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiZ_qaKzUcaRkUD0VGud126vQ2RKeur30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947785867684-7b37smhcdgttl98eikq0g7rimd3lmivd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "947785867684-l7n8mfl4pfuapklk3br9jr4jjr1d73tn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jaspertech.amica"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
